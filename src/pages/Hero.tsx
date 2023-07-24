@@ -35,10 +35,11 @@ export default Hero;
 
 const Image = styled.img`
   @media screen and (min-width: 768px) {
+    /* margin-top: 20px; */
     /* width: 600px;
     height: 00px; */
     object-fit: cover;
-    margin-top: 30px;
+    margin-top: 60px;
   }
 `;
 const Word = styled.div`
@@ -62,7 +63,7 @@ const Text = styled.div`
 `;
 
 const Top = styled.div`
-  margin: 30px 0;
+  margin-top: 50px;
   @media screen and (min-width: 768px) {
     display: flex;
     justify-content: flex-end;

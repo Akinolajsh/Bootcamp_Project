@@ -23,12 +23,14 @@ const CardPhoto:React.FC<iCard> = ({image, title, text}) => {
 
 export default CardPhoto;
 
-const SubTitle = styled.div``;
+const SubTitle = styled.div`
+font-size: 12px;
+`;
 
 const Title = styled.div`
 flex: 1;
 margin-bottom: 10px;
-font-size: 24px;
+font-size: 18px;
 font-weight: 900;
 
 :hover{

@@ -30,6 +30,7 @@ const Container = styled.div<{
   border-radius: 5px;
   font-weight: 600;
   cursor: pointer;
+  text-decoration: none;
 
   :hover{
   transition: all 350 ms;

@@ -11,3 +11,10 @@ export interface iBtn {
     title?: string;
     text?: string;
 }
+
+export interface iPrice{
+  price: string;
+  text: string;
+  name: string;
+  img: any
+} 
