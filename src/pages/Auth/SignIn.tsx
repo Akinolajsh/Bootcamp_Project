@@ -75,7 +75,9 @@ const SignIn = () => {
        
           
           <Button type="submit">Login</Button>
-          
+          <Link to="/register">
+              <SignUp>Get Started</SignUp>
+            </Link>
           </Bottom>
         </Main>
       </Container>
@@ -84,6 +86,24 @@ const SignIn = () => {
 };
 
 export default SignIn;
+
+const SignUp = styled.button`
+  font-size: 15px;
+  border: none;
+  font-weight: 700;
+  margin-left: 5px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+  cursor: pointer;
+  text-decoration: none;
+
+  :hover {
+    transition: all 350 ms;
+    transform: scale(1.1);
+  }
+`;
+
 
 const Image = styled.img`
   object-fit: cover;
