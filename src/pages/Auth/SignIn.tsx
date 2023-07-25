@@ -87,7 +87,7 @@ const SignIn = () => {
 
 export default SignIn;
 
-const SignUp = styled.button`
+const SignUp  = styled.button`
   font-size: 15px;
   border: none;
   font-weight: 700;

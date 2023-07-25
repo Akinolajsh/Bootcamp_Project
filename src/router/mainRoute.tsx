@@ -6,6 +6,9 @@ import Register from "../pages/Auth/Register";
 import SignIn from "../pages/Auth/SignIn";
 import DashBoard from "../pages/HomePage/DashBoard";
 import PrivateRoute from "./PrivateRoute";
+import ChartPage from "../pages/HomePage/ChartPage";
+import { PieChart } from "../pages/HomePage/PieChart";
+import { Pie1Chart } from "../pages/HomePage/Pie1Chart";
 
 export const mainRoute = createBrowserRouter([
   {
@@ -18,6 +21,18 @@ export const mainRoute = createBrowserRouter([
           <HomeScreen />
         
       },
+      {
+        path: "/chart",
+        element: <ChartPage />
+      },
+      {
+        path: "/pie",
+        element: <PieChart />
+      },
+      {
+        path: "/pie1",
+        element: <Pie1Chart />
+      }
     ],
   },
   {
